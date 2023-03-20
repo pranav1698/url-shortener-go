@@ -62,4 +62,4 @@ To run this newly created image, we can use the following command:
 docker run -p 8080:8080 -it url-shortener
 ```
 
-Now, you can open your local browser and the application will be hosted on port 8080
+Now, you can open your local browser and you can open the above link: (http://localhost:8080/short?link=https:///www.github.com)
