@@ -82,6 +82,7 @@ func Get(w http.ResponseWriter, r *http.Request) {
 
 // Adding link to our link store
 func addLink(link string, randomString string) string {
+	// adding a short url for the link and setting expiration time for url to 2 minutes
 	urlUtil := UrlUtil{
 		Url:        link,
 		Expiration: time.Now().Add(time.Minute * 2),
